@@ -38,3 +38,11 @@ p,a,button,label,select,textarea,span{
 @media screen and (min-width: 320px) and (max-width: 767px){
 
 }
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url(../img/Rectangle\ 1441.png);
+    background-size: cover ;
+    background-position: center;
+}
