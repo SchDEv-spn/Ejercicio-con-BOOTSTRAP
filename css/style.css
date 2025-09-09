@@ -25,8 +25,8 @@ p,a,button,label,select,textarea,span{
 --white-color : #fff;
 --dark-color: #1e1e1e;
 --fs-title1:80px;
---fs-title2:42px;
---fs-title3:24px;
+--fs-title2:38px;
+--fs-title3:21px;
 --fs-title4:18px;
 --fs-text: 16px;
 }
@@ -139,4 +139,41 @@ header .bag-button .counter-products{
     right:6%;
     top: 15%;
     border-color: transparent;
+}
+/* estilos main  */
+#choosing-us{
+    position: relative;
+    width: 100%;
+    padding: 120px 0;
+    background: var(--white-color);
+
+}
+#choosing-us h2{
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    padding-top: 20px;
+}
+#choosing-us h3{
+    font-weight: 700;
+    font-size: var(--fs-title3);
+    color: var(--dark-color);
+
+}
+#choosing-us p{
+    margin-top: 15px;
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+}
+#choosing-us a{
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+#choosing-us a i{
+    margin-left: 4px;
+    transition: .5s;
+}
+#choosing-us a:hover i{
+    margin-left: 15px;
 }
