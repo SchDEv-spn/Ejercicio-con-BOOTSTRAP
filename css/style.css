@@ -650,4 +650,243 @@ footer a:hover {
         top: 20%;
     }
 
+    #choosing-us {
+        padding: 80px 20px;
+        text-align: center;
+        /* centra en 2 columnas */
+    }
+
+    #choosing-us h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    #choosing-us h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    #choosing-us p {
+        font-size: 15px;
+    }
+
+    #products {
+        padding: 60px 20px;
+    }
+
+    #products h2 {
+        font-size: 32px;
+    }
+
+    #products h3 {
+        font-size: 18px;
+    }
+
+    #products p {
+        font-size: 14px;
+    }
+
+    /* cards */
+    #products .card-product {
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    #products .slick-list {
+        padding: 100px 0;
+        /* menos espacio */
+    }
+
+    #experiences {
+        padding: 80px 0;
+        overflow-x: hidden;
+        /* evita scroll horizontal mínimo */
+    }
+
+    #experiences .row {
+        flex-direction: column;
+        /* apila vertical */
+        align-items: center;
+    }
+
+    #experiences .cont-img {
+        left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #experiences .cont-img img {
+        max-width: 80%;
+        /* centramos y reducimos */
+        margin: 0 auto;
+        display: block;
+    }
+
+    #experiences .cont-img::before,
+    #experiences .cont-img::after {
+        display: none;
+        /* decorativos off en tablet */
+    }
+
+    #experiences .cont-info {
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    #experiences .cont-info h2 {
+        font-size: 30px;
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    header {
+        height: auto;
+        padding-top: 15px;
+    }
+
+    /* navbar */
+    .navbar .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .bag-button {
+        font-size: 20px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+
+    /* hero */
+    #hero {
+        padding: 40px 20px;
+    }
+
+    #hero h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    #hero p {
+        font-size: 14px;
+        padding: 15px 10px;
+        /* casi sin padding lateral */
+    }
+
+    #hero form {
+        width: 100%;
+    }
+
+    #hero form input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #hero form button {
+        right: 6%;
+        top: 18%;
+    }
+
+    #choosing-us {
+        padding: 60px 15px;
+        text-align: center;
+        /* una columna, centrado */
+    }
+
+    #choosing-us h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    #choosing-us h3 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    #choosing-us p {
+        font-size: 14px;
+    }
+
+    #choosing-us a {
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    #products {
+        padding: 40px 15px;
+    }
+
+    #products h2 {
+        font-size: 26px;
+    }
+
+    #products h3 {
+        font-size: 16px;
+    }
+
+    #products p {
+        font-size: 13px;
+    }
+
+    /* cards */
+    #products .card-product {
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    #products .slick-list {
+        padding: 80px 0;
+    }
+
+    #experiences {
+    padding: 60px 0;
+    overflow-x: hidden; /* evita scroll horizontal */
+  }
+
+  #experiences .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #experiences .cont-img {
+    left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #experiences .cont-img img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: -8px 10px 12px -6px #c69b66;
+  }
+
+  #experiences .cont-img::before,
+  #experiences .cont-img::after {
+    display: none; /* quitamos los decorativos que rompen */
+  }
+
+  #experiences .cont-info {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  #experiences .cont-info h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  #experiences .cont-info p {
+    font-size: 15px;
+  }
+
 }
