@@ -927,6 +927,26 @@ footer .info a {
         top: 20px;
     }
 
+    .bag-button {
+        display: none !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+        color: #fff;
+        font-size: 28px;
+    }
+
+
+    .navbar-toggler-icon::before {
+        content: "\2630";
+        color: #fff;
+    }
+
     /* hero */
     #hero {
         padding: 40px 20px;
@@ -1099,7 +1119,8 @@ footer .info a {
         display: none;
         /* quitamos decorativo en móvil */
     }
-        footer {
+
+    footer {
         padding: 50px 15px;
         text-align: center;
     }
