@@ -54,7 +54,3 @@ $(document).ready(function () {
         ]
     })
 });
-AOS.init({
-    duration: 1000, // duración en ms de cada animación
-    once: true,     // true = solo se anima una vez
-});
