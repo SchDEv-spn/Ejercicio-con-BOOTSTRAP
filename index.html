@@ -10,7 +10,9 @@
     <!-- Slick CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
+    <!-- aosp animated -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- mi css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,86 +20,76 @@
 
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-transparente">
+        <nav class="navbar navbar-expand-lg bg-transparente" data-aos="fade-down" data-aos-duration="1000">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Panto</a>
+                <a class="navbar-brand logo" href="#" data-aos="fade-down" data-aos-delay="200">Panto</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav" data-aos="fade-down"
+                    data-aos-delay="400">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
                 </div>
-                <button class="bag-button">
+                <button class="bag-button" data-aos="fade-left" data-aos-delay="600">
                     <i class="bi bi-bag-fill"></i>
                     <div class="counter-products">4</div>
                 </button>
             </div>
         </nav>
+
         <div id="hero">
             <div id="carouselHeroSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <h2>MAKE YOUR INTERIOR More Minimalistic & morder
-                            <p>Turn your room with panto into a lot more eade and speed</p>
-                        </h2>
+                    <div class="carousel-item active" data-aos="fade-up" data-aos-duration="1200">
+                        <h2>MAKE YOUR INTERIOR More Minimalistic & Modern</h2>
+                        <p>Turn your room with panto into a lot more ease and speed</p>
                     </div>
-                    <div class="carousel-item">
-                        <h2>MAKE YOUR INTERIOR More Minimalistic & morder </h2>
-                        <p>Turn your room with panto into a lot more eade and speed</p>
-
+                    <div class="carousel-item" data-aos="fade-up" data-aos-duration="1200">
+                        <h2>MAKE YOUR INTERIOR More Minimalistic & Modern</h2>
+                        <p>Turn your room with panto into a lot more ease and speed</p>
                     </div>
-                    <div class="carousel-item">
-                        <h2>MAKE YOUR INTERIOR More Minimalistic & morder</h2>
-                        <p>Turn your room with panto into a lot more eade and speed</p>
-
+                    <div class="carousel-item" data-aos="fade-up" data-aos-duration="1200">
+                        <h2>MAKE YOUR INTERIOR More Minimalistic & Modern</h2>
+                        <p>Turn your room with panto into a lot more ease and speed</p>
                     </div>
                 </div>
             </div>
-            <form action="#">
-                <input type="text" placeholder="Search feacture">
+
+            <form action="#" data-aos="zoom-in" data-aos-delay="800">
+                <input type="text" placeholder="Search feature">
                 <button><i class="bi bi-search"></i></button>
             </form>
         </div>
-
     </header>
+
 
     <main>
         <section id="choosing-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <h2>Why <br>Choosing Us</h2>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h3>luxury facilities</h3>
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <h3>Luxury Facilities</h3>
                         <p>The advantage of hiring a workspace with us is that givees you comfortable service and
                             all-around facilities.</p>
                         <a href="">More info <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <h3>Affordable Price</h3>
                         <p>The advantage of hiring a workspace with us is that givees you comfortable service and
                             all-around facilities.</p>
                         <a href="">More info <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                         <h3>Many Choices</h3>
                         <p>We provide many unique work space choices so that you can choose the workspace to your
                             liking.</p>
@@ -106,6 +98,7 @@
                 </div>
             </div>
         </section>
+
         <section id="products">
             <div class="container">
                 <h2>Best Selling Product</h2>
@@ -797,10 +790,10 @@
         <section id="experiences">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 cont-img">
+                    <div class="col-md-6 cont-img" data-aos="fade-right" data-aos-duration="1200">
                         <img src="img/sofa.png" alt="">
                     </div>
-                    <div class="col-md-6 cont-info">
+                    <div class="col-md-6 cont-info" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200">
                         <h3>experiences</h3>
                         <h2>we provide you the best experience</h2>
                         <p>You don’t have to worry about the result because all of these interiors are made by people
@@ -811,31 +804,41 @@
                 </div>
             </div>
         </section>
+
         <section id="materials">
-            <class class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 cont-info">
-                        <h3>Materials</h3>
-                        <h2>Very serious materials for making furniture</h2>
-                        <p>You don’t have to worry about the result because all of these interiors are made by people
+                        <h3 data-aos="fade-up" data-aos-duration="800">Materials</h3>
+                        <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                            Very serious materials for making furniture
+                        </h2>
+                        <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                            You don’t have to worry about the result because all of these interiors are made by people
                             who are professionals in their fields with an elegant and lucurious style and with premium
-                            quality materials</p>
-                        <a href="">more info <i class="bi bi-arrow-right"></i></a>
+                            quality materials
+                        </p>
+                        <a href="" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                            more info <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                     <div class="col-md-6 cont-img">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="img/arriba.png" alt="">
-                                <img src="img/abajo.png" alt="">
+                                <img src="img/arriba.png" alt="" data-aos="fade-right" data-aos-duration="1000">
+                                <img src="img/abajo.png" alt="" data-aos="fade-right" data-aos-delay="300"
+                                    data-aos-duration="1000">
                             </div>
                             <div class="col-md-8 centro">
-                                <img src="img/centro.png" alt="">
+                                <img src="img/centro.png" alt="" data-aos="zoom-in" data-aos-delay="500"
+                                    data-aos-duration="1200">
                             </div>
                         </div>
                     </div>
                 </div>
-            </class>
+            </div>
         </section>
+
         <section id="reviews">
             <div class="container">
                 <h3>testimonials</h3>
@@ -919,31 +922,31 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                     <a href="#" class="logo">Panto</a>
                     <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around
                         facilities.</p>
                 </div>
-                <div class="col-md-2 col-footer">
+                <div class="col-md-2 col-footer" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <h3>Services</h3>
                     <a href="#">Email Marketing</a>
                     <a href="#">Campaigns</a>
                     <a href="#">Branding</a>
                 </div>
-                <div class="col-md-2 col-footer">
+                <div class="col-md-2 col-footer" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <h3>Furniture</h3>
                     <a href="#">Beds</a>
                     <a href="#">Chair</a>
                     <a href="#">All</a>
                 </div>
-                <div class="col-md-2 col-footer">
+                <div class="col-md-2 col-footer" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                     <h3>Follow Us</h3>
                     <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i>facebook</a>
                     <a href="https://x.com/"><i class="bi bi-twitter"></i>Twiter</a>
                     <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i>Instagram</a>
                 </div>
             </div>
-            <div class="row info">
+            <div class="row info" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
                 <div class="col-md-8">
                     <p>Copyright © 2025. Lo</p>
                 </div>
@@ -958,6 +961,8 @@
     </footer>
 
 
+    <!-- aosp scrip -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
