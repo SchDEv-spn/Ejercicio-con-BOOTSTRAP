@@ -578,41 +578,54 @@ footer {
 }
 
 
-footer h3 {
-    font-size: 16px;
-    margin-bottom: 12px;
+footer {
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    background: #f7f7f7;
 }
 
 footer .logo {
-    color: var(--dark-color);
-    font-weight: 700;
-    font-size: 24px;
     text-decoration: none;
-    display: inline-block;
-
+    color: var(--dark-color);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-footer .logo:hover {
-    color: var(--white-color);
-    transform: scale(1.1);
-
+footer .col-footer a {
+    text-decoration: none;
+    color: var(--dark-color);
+    display: block;
+    margin-bottom: 10px;
 }
 
-footer p {
-    margin: 0;
-    line-height: 1.6;
-    max-width: 320px;
-    color: #555;
+footer h3 {
+    color: var(--Primary-color);
+    font-size: 17px;
 }
 
 footer a {
     text-decoration: none;
-    color: #333;
-    margin-bottom: 6px;
+    color: var(--dark-color);
 }
 
-footer a:hover {
-    color: #f15b2a;
+footer p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    width: 310px;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer .info {
+    padding-top: 60px;
+}
+
+footer .info a {
+    margin-right: 20px;
 }
 
 /* aqui empezamos con el responsive */
@@ -800,9 +813,10 @@ footer a:hover {
     }
 
     /* Imagen principal del testimonio */
-    #reviews .card-reviews > img {
+    #reviews .card-reviews>img {
         max-width: 80%;
-        margin: 0 auto 20px auto; /* centrada + separación abajo */
+        margin: 0 auto 20px auto;
+        /* centrada + separación abajo */
         display: block;
     }
 
@@ -811,7 +825,8 @@ footer a:hover {
         top: -30px;
         width: 60px;
         height: 60px;
-        margin-top: 5px; /* pequeña separación */
+        margin-top: 5px;
+        /* pequeña separación */
     }
 
     #reviews .card-reviews .cont-info h4 {
@@ -834,6 +849,56 @@ footer a:hover {
     #reviews .slick-arrow {
         width: 40px;
         height: 40px;
+    }
+
+    footer {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    footer .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0 auto 20px auto;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        /* limita el ancho del párrafo */
+    }
+
+    footer .col-footer {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .info {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    footer .info .col-md-8,
+    footer .info .col-md-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    footer .info p {
+        margin: 0 auto 15px auto;
+        text-align: center;
     }
 }
 
@@ -1034,5 +1099,62 @@ footer a:hover {
         display: none;
         /* quitamos decorativo en móvil */
     }
+        footer {
+        padding: 50px 15px;
+        text-align: center;
+    }
+
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    footer .logo {
+        margin-bottom: 15px;
+    }
+
+    footer p {
+        margin: 0 auto 20px auto;
+        text-align: center;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    footer .col-footer {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer h3 {
+        margin-bottom: 10px;
+    }
+
+    footer .info {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer .info .col-md-8,
+    footer .info .col-md-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    footer .info p {
+        margin: 0 auto 15px auto;
+        text-align: center;
+    }
+
 
 }
